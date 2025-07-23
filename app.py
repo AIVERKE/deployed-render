@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "Hola, Render"
+    return "Desplegando página desde render. Solo tenemos 252 MB de espacio en el proyecto y la misma cantidad de espacio en BD"
 
 
 @app.route("/usuarios", methods=["GET"])
